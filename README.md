@@ -1,4 +1,2 @@
 # CadastroRpg
-# CadastroRpg
-# CadastroRpg
-# CadastroRpg
+
