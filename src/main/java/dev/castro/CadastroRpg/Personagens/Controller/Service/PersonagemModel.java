@@ -1,5 +1,6 @@
-package dev.castro.CadastroRpg;
-
+package dev.castro.CadastroRpg.Personagens.Controller.Service;
+import java.util.List;
+import dev.castro.CadastroRpg.Itens.ItensModel;
 import jakarta.persistence.*;
 
 @Entity
@@ -16,7 +17,10 @@ public class PersonagemModel {
     private String alinhamento;
     private String passado;
     private String historia;
-
+    //um personagem tem varios itens
+    @OneToMany(mappedBy = "personagem")
+    @JoinColumn(name = "itens_id")                  //chave estrangeira
+    private List<ItensModel> itens;
 
     public PersonagemModel() {
     }

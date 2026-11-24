@@ -1,4 +1,4 @@
-package dev.castro.CadastroRpg;
+package dev.castro.CadastroRpg.Personagens.Controller.Service;
 
 import org.springframework.web.bind.annotation.*;
 
