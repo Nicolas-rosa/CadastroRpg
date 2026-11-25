@@ -2,9 +2,15 @@ package dev.castro.CadastroRpg.Itens;
 
 import dev.castro.CadastroRpg.Personagens.Controller.Service.PersonagemModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "tb_itens")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class ItensModel {
 
     @Id
