@@ -1,10 +1,10 @@
-package dev.castro.CadastroRpg;
+package dev.castro.CadastroRpg.personagens;
 
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class PersonagemController {
 
     @GetMapping("/boasVindas")
     public String boasVindas() {
