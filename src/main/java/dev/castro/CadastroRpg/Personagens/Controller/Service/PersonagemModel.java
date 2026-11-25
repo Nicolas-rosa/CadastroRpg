@@ -26,7 +26,6 @@ public class PersonagemModel {
     private String historia;
     //um personagem tem varios itens
     @OneToMany(mappedBy = "personagem")
-    @JoinColumn(name = "itens_id")                  //chave estrangeira
     private List<ItensModel> itens;
 
 }
