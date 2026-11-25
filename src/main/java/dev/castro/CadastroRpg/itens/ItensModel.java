@@ -1,6 +1,6 @@
-package dev.castro.CadastroRpg.Itens;
+package dev.castro.CadastroRpg.itens;
 
-import dev.castro.CadastroRpg.Personagens.Controller.Service.PersonagemModel;
+import dev.castro.CadastroRpg.personagens.PersonagemModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
